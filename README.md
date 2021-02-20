@@ -47,3 +47,8 @@ url = ''
 python run.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel
 ```
 > Set url = 0 for webcam.
+
+## Modification/Features
+The following is an example of the added features. Note: You can easily on/off them in the config. options (mylib/config.py):
+
+<img src="https://imgur.com/Lr8mdUW.png" width=500>
