@@ -52,3 +52,12 @@ python run.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobi
 The following is an example of the added features. Note: You can easily on/off them in the config. options (mylib/config.py):
 
 <img src="https://imgur.com/Lr8mdUW.png" width=500>
+
+***1. Real-Time alert through emails***  
+***2. Threading***  
+***3. Scheduler***  
+***4. Timer***  
+***5. Simple log:***  
+- Logs all data at end of the day.
+- Useful for footfall analysis.
+<img src="https://imgur.com/CV2nCjx.png" width=400>
