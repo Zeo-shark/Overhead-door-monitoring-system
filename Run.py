@@ -14,7 +14,7 @@ t0 = time.time()
 
 def run():
 
-	# construct the argument parse and parse the arguments
+
 	ap = argparse.ArgumentParser()
 	ap.add_argument("-p", "--prototxt", required=False,
 		help="path to Caffe 'deploy' prototxt file")
@@ -31,8 +31,7 @@ def run():
 		help="# of skip frames between detections")
 	args = vars(ap.parse_args())
 
-	# initialize the list of class labels MobileNet SSD was trained to
-	# detect
+
 	CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
 		"bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
 		"dog", "horse", "motorbike", "person", "pottedplant", "sheep",
