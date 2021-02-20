@@ -73,7 +73,7 @@ def run():
 	empty=[]
 	empty1=[]
 
-	# start the frames per second throughput estimator
+
 	fps = FPS().start()
 
 	if config.Thread:
