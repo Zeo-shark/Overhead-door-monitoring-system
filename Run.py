@@ -59,8 +59,7 @@ def run():
 	H = None
 
 	# instantiate our centroid tracker, then initialize a list to store
-	# each of our dlib correlation trackers, followed by a dictionary to
-	# map each unique object ID to a TrackableObject
+
 	ct = CentroidTracker(maxDisappeared=40, maxDistance=50)
 	trackers = []
 	trackableObjects = {}
