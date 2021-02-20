@@ -51,11 +51,10 @@ def run():
 		print("[INFO] Starting the video..")
 		vs = cv2.VideoCapture(args["input"])
 
-	# initialize the video writer (we'll instantiate later if need be)
+
 	writer = None
 
-	# initialize the frame dimensions (we'll set them as soon as we read
-	# the first frame from the video)
+
 	W = None
 	H = None
 
