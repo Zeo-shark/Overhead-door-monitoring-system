@@ -53,11 +53,11 @@ The following is an example of the added features. Note: You can easily on/off t
 
 <img src="https://imgur.com/Lr8mdUW.png" width=500>
 
-***1. Real-Time alert through emails***  
-***2. Threading***  
-***3. Scheduler***  
-***4. Timer***  
-***5. Simple log:***  
+1. Real-Time alert system to Malls owner through emails 
+2. Threading multi-tasking supported  
+3. Scheduler your system for which the system remains active  
+4. Timer set duration for how long the system shall operate  
+5. Simple logs system for tracking of previous results
 - Logs all data at end of the day.
 - Useful for footfall analysis.
 <img src="https://imgur.com/CV2nCjx.png" width=400>
